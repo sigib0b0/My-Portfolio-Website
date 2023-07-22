@@ -64,12 +64,20 @@ header {
 
 /* ============================ MEDIA QUERIES (MEDIUM DEVICES) ================== */
 @media screen and (max-width: 650px) {
-    .container {
-        background-color: red;
+    .header {
+        height: 68vh;
     }
 }
 
 
 /* ============================ MEDIA QUERIES (SMALL DEVICES) ================== */
 @media screen and (max-width: 660px){
+    .header {
+        height: 100vh;
+    }
+
+    .header__socials, 
+    .scroll__down {
+        display: none;
+    }
 }
